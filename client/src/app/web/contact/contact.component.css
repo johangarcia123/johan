@@ -1,0 +1,151 @@
+* {
+    padding-top: 5px;
+}
+
+.contact {
+    width: 100%;
+    height: 390px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    z-index: 1000;
+}
+
+.container .info {
+    position: absolute;
+    border: 10px solid red;
+    color: rgb(4, 4, 204);
+    background-color: white;
+    box-shadow: 0 0 12px 0 white;
+    border-radius: 16px;
+    width: 230px;
+    height: 230px;
+    left: 100px;
+    top: 35px;
+    z-index: 1;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 55px;
+}
+
+.container .form {
+    position: absolute;
+    padding: 70px 50px;
+    padding-top: 0;
+    padding-left: 250px;
+    margin-left: 250px;
+    width: 650px;
+    height: 305px;
+    border-radius: 16px;
+    background-color: rgb(4, 4, 204);
+    color: white;
+}
+
+.left-left {
+    width: 20%;
+}
+
+.left-right {
+    width: 80%;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+span {
+    padding: 10px;
+}
+
+.number, .email {
+    margin-top: 10px;
+}
+
+.first {
+    display: flex;
+}
+
+.second {
+    display: flex;
+}
+
+.third {
+    display: flex;
+}
+
+.form h2 {
+    padding-top: -100px;
+}
+
+.formu {
+    width: 100%;
+}
+
+.names {
+    display: flex;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.data {
+    display: flex;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.left-formu {
+    width: 50%;
+}
+
+.right-formu {
+    width: 50%;
+}
+
+label {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+textarea {
+    padding: 5px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    border-bottom: 2px solid white;
+    color: white;
+    height: 70px;
+}
+
+.btn-submit {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 16px;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+    width: 200px;
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+.btn-submit:hover {
+    background-color: rgb(185, 2, 2);
+}
